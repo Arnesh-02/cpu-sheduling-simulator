@@ -5,7 +5,7 @@ struct process {
     int processId;
     int burstTime;
     int arrivalTime;
-
+    int priority;
 
     int completionTime;
     int waitingTime;
